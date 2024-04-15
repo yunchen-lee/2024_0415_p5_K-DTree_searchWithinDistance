@@ -24,7 +24,7 @@ function kdtree_points_within_distance(root, point, r, depth = 0, result = [])
     if the distance from point th the axis of root is larger than radius, mean the searching range should cover oppisite branch:
       check opposite branch
 ```
-
+## function `kdtree_points_within_distance()`
 ```
 //  /* 4 - Find all sample within specific distance */
 function kdtree_points_within_distance(root, point, r, depth = 0, result = []) {
